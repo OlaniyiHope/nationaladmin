@@ -132,19 +132,7 @@ const PostList = () => {
                       </div>
                     )}
                   </td>
-                  <td className="px-6 py-4 whitespace-nowrap">
-                    {post.videoImage?.[0] ? (
-                      <img
-                        src={post.videoImage[0]}
-                        alt={post.title}
-                        className="h-12 w-12 object-cover rounded"
-                      />
-                    ) : (
-                      <div className="h-12 w-12 bg-gray-100 rounded flex items-center justify-center text-gray-400 text-xs">
-                        No videoImage
-                      </div>
-                    )}
-                  </td>
+                
                   <td className="px-6 py-4 whitespace-nowrap">
                     {post.videos?.[0] ? (
                       <video
@@ -158,7 +146,19 @@ const PostList = () => {
                       </div>
                     )}
                   </td>
-
+ <td className="px-6 py-4 whitespace-nowrap">
+  {post.videoImage ? (
+    <img
+      src={post.videoImage}
+      alt={post.title}
+      className="h-12 w-12 object-cover rounded"
+    />
+  ) : (
+    <div className="h-12 w-12 bg-gray-100 rounded flex items-center justify-center text-gray-400 text-xs">
+      No videoImage
+    </div>
+  )}
+</td>
                   {/* Title */}
                   <td className="px-6 py-4 text-sm font-medium text-gray-900 max-w-xs">
                     {post.title}
