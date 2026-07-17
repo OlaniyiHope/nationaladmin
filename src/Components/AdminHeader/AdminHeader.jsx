@@ -115,7 +115,7 @@ const AdminHeader = () => {
             ? "transform translate-x-0 ease-in-out"
             : "transform -translate-x-full ease-in-out"
         } fixed top-[3.4rem] left-0 w-full h-full bg-secondary z-50 transition-transform duration-300`}
-        style={{ backgroundColor: "#b90705" }}
+        style={{ backgroundColor: "#007a47" }}
       >
         <nav className="text-white text-[18px] font-semibold p-3 pt-[1rem] space-y-3">
           <a href="/dashboard" className=" block" onClick={handleCloseMenu}>

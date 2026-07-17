@@ -89,7 +89,7 @@ const NewCategory = () => {
             className={`px-4 py-2 rounded text-white transition ${
               isSubmitting ? "bg-gray-400 cursor-not-allowed" : "hover:opacity-90"
             }`}
-            style={!isSubmitting ? { backgroundColor: "#b90705" } : {}}
+            style={!isSubmitting ? { backgroundColor: "#007a47" } : {}}
           >
             {isSubmitting ? "Submitting..." : "Submit Category"}
           </button>

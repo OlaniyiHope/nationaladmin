@@ -46,7 +46,7 @@ const ArrayInputField = ({ label, values, setValues }) => {
         />
         <button type="button" onClick={handleAdd}
           className="px-4 py-2 text-white rounded"
-          style={{ backgroundColor: "#b90705" }}>+</button>
+          style={{ backgroundColor: "#007a47" }}>+</button>
       </div>
     </div>
   );
@@ -283,7 +283,7 @@ className="w-40 h-40 object-cover rounded border"
         <div className="flex justify-end">
           <button onClick={handleSubmit} disabled={loading}
             className="px-6 py-2 text-white rounded"
-            style={{ backgroundColor: loading ? "#ccc" : "#b90705" }}>
+            style={{ backgroundColor: loading ? "#ccc" : "#007a47" }}>
             {loading ? "Adding..." : "Add Post"}
           </button>
         </div>

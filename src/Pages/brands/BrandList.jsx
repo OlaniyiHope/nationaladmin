@@ -182,7 +182,7 @@ const BrandList = () => {
             <button
               className="px-6 py-3 bg-secondary text-white w-full rounded-md hover:bg-blue-600"
               onClick={() => navigate("/add-brand")}
-              style={{ backgroundColor: "#b90705" }}
+              style={{ backgroundColor: "#007a47" }}
             >
               Add New Brand
             </button>
@@ -192,12 +192,12 @@ const BrandList = () => {
         <div className="border rounded-lg overflow-hidden">
           <div
             className="bg-secondary px-6 py-3"
-            style={{ backgroundColor: "#b90705" }}
+            style={{ backgroundColor: "#007a47" }}
           >
             <span className="text-gray-100 font-semibold text-lg">Brands</span>
           </div>
 
-          <div className="divide-y divide-gray-200 px-6 py-4 bg-[#b90705]">
+          <div className="divide-y divide-gray-200 px-6 py-4 bg-[#007a47]">
             {filteredBrands.length > 0 ? (
               filteredBrands.map((brand) => (
                 <div

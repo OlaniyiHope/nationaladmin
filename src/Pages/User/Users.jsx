@@ -86,7 +86,7 @@ const UserTable = () => {
             </button>
             <button
               className="px-4 py-2 text-white rounded-lg"
-              style={{ backgroundColor: "#b90705" }}
+              style={{ backgroundColor: "#007a47" }}
             >
               Add User
             </button>

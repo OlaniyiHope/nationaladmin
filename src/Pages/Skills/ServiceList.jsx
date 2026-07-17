@@ -108,7 +108,7 @@ useEffect(() => {
           <button
             className="px-6 py-3 bg-secondary text-white w-full rounded-md hover:bg-blue-600"
             onClick={() => navigate("/add-category")}
-           style={{backgroundColor: "#b90705", color: "white"}}
+           style={{backgroundColor: "#007a47", color: "white"}}
           >
             Add New Category
           </button>
@@ -118,12 +118,12 @@ useEffect(() => {
       <div className="border rounded-lg overflow-hidden">
         <div
           className="bg-secondary px-6 py-3"
-            style={{backgroundColor: "#b90705"}}
+            style={{backgroundColor: "#007a47"}}
         >
           <span className="text-gray-100 font-semibold text-lg">Categories</span>
         </div>
 
-        <div className="divide-y divide-gray-200 px-6 py-4 bg-[#b90705]">
+        <div className="divide-y divide-gray-200 px-6 py-4 bg-[#007a47]">
           {filteredCategories?.length > 0 ? (
             filteredCategories?.map((category) => renderCategoryTree(category))
           ) : (

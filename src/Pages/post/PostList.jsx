@@ -91,7 +91,7 @@ const PostList = () => {
             <button
               className="px-6 py-3 text-white w-full rounded-md"
               onClick={() => navigate("/add-post")}
-              style={{ backgroundColor: "#b90705" }}
+              style={{ backgroundColor: "#007a47" }}
             >
               Add New Post
             </button>

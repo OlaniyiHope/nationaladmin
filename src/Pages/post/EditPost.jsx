@@ -43,7 +43,7 @@ const ArrayInputField = ({ label, values, setValues }) => {
         />
         <button type="button" onClick={handleAdd}
           className="px-4 py-2 text-white rounded"
-          style={{ backgroundColor: "#b90705" }}>+</button>
+          style={{ backgroundColor: "#007a47" }}>+</button>
       </div>
     </div>
   );

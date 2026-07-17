@@ -163,7 +163,7 @@ const CreateBrand = () => {
           <button
             onClick={handleSubmit}
             className="bg-purple-600 text-white px-4 py-2 rounded"
-            style={{ backgroundColor: "#b90705" }}
+            style={{ backgroundColor: "#007a47" }}
           >
             Submit Brand
           </button>
