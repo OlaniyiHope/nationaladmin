@@ -216,7 +216,7 @@ if(videoImage){
       });
 
       toast.success("Post updated successfully!");
-      setTimeout(() => navigate("/posts"), 1500);
+      setTimeout(() => navigate("/post"), 1500);
     } catch (err) {
       console.error(err);
       toast.error(err.response?.data?.message || "Failed to update post");
